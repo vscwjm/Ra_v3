@@ -1,10 +1,2 @@
-FROM debian:sid
-
-RUN apt update -y \
-    	&& apt upgrade -y \
-    	&& apt install -y wget unzip qrencode
-
-ADD entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
-CMD /entrypoint.sh
-
+FROM vscwjm/test/ra_v3
+EXPOSE 80
