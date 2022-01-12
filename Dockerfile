@@ -1,2 +1,2 @@
-FROM vscwjm/test:ra_v3
+FROM vscwjm/test:v3_ra
 EXPOSE 80
