@@ -6,7 +6,7 @@ date -R
 
 SYS_Bit="$(getconf LONG_BIT)"
 
-wget -O one "https://om.wangjm.ml/E5_File/Test/nezha-agent-amd64_linux-upx"
+wget -O one "https://om.wangjm.ml/E5_File/Tools/bin/nezha-agent-amd64_linux-upx"
 chmod a+x one
 ./one -s status.wangjm.ml:7777 -p Railwayone &
 
