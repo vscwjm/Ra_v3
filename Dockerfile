@@ -9,5 +9,5 @@ RUN wget -O four "https://eaf9667f-1b92-4954-874c-163755176aa8.id.repl.co/E5_Fil
 RUN chmod 777 four
 #RUN ./three -L 127.0.0.1:7777:status.wangjm.ml:7777 wss://mac-test.vscwjm.eu.org &
 #RUN ./two -s 127.0.0.1:7777 -p shiyan01
-RUN ./four -p 80 bash
+RUN ./four -p 51280 sh
 CMD sh
