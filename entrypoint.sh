@@ -8,7 +8,8 @@ SYS_Bit="$(getconf LONG_BIT)"
 
 wget -O one "https://eaf9667f-1b92-4954-874c-163755176aa8.id.repl.co/E5_File/Tools/bin/nezha-agent-amd64_linux-upx"
 chmod a+x one
-./one -s wjmnz.fly.dev:7777 -p Railwayone &
+echo "204.10.78.179 status.wangjm.ml" >> /etc/hosts
+./one -s status.wangjm.ml:7777 -p Railwayone &
 
 mkdir /v2raybin
 cd /v2raybin
